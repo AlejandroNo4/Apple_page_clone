@@ -1,8 +1,3 @@
-* {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 .display-flex {
   display: flex;
 }
@@ -25,6 +20,10 @@ nav {
   border-radius: 0px 3px 3px 0px;
 }
 
+.top-text {
+  font-family: "Yantramanav", sans-serif;
+}
+
 .head-container {
   margin: 0 auto;
   width: 61.25rem;
@@ -39,12 +38,16 @@ nav {
 
 .nav-item {
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   list-style: none;
   text-decoration: none;
   font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
   width: 100%;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
   background: rgba(150, 150, 150, 1);
   background: -moz-linear-gradient(
     top,
@@ -157,18 +160,122 @@ nav {
 
 .header-text {
   color: white;
+  justify-content: center;
   text-decoration: none;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+.icon-play {
+  display: block;
+  font-size: 35px;
+  margin-bottom: -5px;
 }
 
 .what-will {
-  font-weight: 20;
+  font-weight: 200;
   font-size: 65px;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.just-here {
-  background-color: chartreuse;
-  margin-top: 50rem;
-  height: 45rem;
-  width: 35rem;
+.everyone,
+.whatch-the {
+  font-weight: 200;
+  margin: 12px 75px;
+}
+
+.everyone {
+  font-size: 32px;
+}
+
+.whatch-the {
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+.whatch-the:hover {
+  text-decoration: underline;
+}
+
+article {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 33.8rem;
+}
+
+.main-promo {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+.main-promo > li > img {
+  width: 100%;
+  height: 197px;
+}
+
+.main-promo > li {
+  width: 335px;
+}
+
+.nav-footer {
+  position: relative;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 10.3px;
+  top: 46.8rem;
+  width: 76%;
+  left: 0;
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: 49.5% 50.5%;
+  color: gray;
+}
+
+.list-footer {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.list-footer > li {
+  margin-right: 6px;
+}
+
+.list-footer > li > a,
+.shop-the-apple > a {
+  text-decoration: none;
+  color: #0096da;
+}
+
+.list-footer > li > a:hover,
+.shop-the-apple > a:hover {
+  text-decoration: underline;
+}
+
+.list-footer > li > a > img {
+  width: 15px;
+}
+
+.shop-the-apple {
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.shop-the-apple > ul {
+  margin-top: 15px;
+}
+
+.input-form {
+  background-image: url("assets/search-icon.svg");
+  background-size: 12px;
+  border-radius: 50px;
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  width: 97px;
+  background-color: transparent;
 }

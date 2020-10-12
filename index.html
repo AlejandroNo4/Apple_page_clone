@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple</title>
     <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Yantramanav:wght@100;300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="main-head">
@@ -12,7 +14,7 @@
         <nav>
           <ul class="navbar display-flex">
             <a href="#" class="nav-item hover-yes nav-radious-left">
-              <li>logo</li>
+              <li><img src="assets/apple-logo.png" alt="apple-logo" width="16px"></li>
             </a>
             <a href="#" class="nav-item hover-yes">
               <li>Store</li>
@@ -35,36 +37,69 @@
             <a href="#" class="nav-item hover-yes">
               <li>Support</li>
             </a>
-            <li class="nav-item nav-radious-right nav-field">field</li>
+            <li class="nav-item nav-radious-right nav-field">
+                <form>
+                    <input type="text" class="input-form">
+                </form>
+            </li>
           </ul>
         </nav>
-        <section>
+        <section class="top-text">
           <a href="#" class="header-text">
             <p class="what-will">What will your verse be?</p>
-            <p class="Everyone">
+            <p class="everyone">
               Everyone has something to share. See hou people are using <br />
               iPad in ther unique ways to add to the world's story.
             </h3>
           </a>
-          <a href="#" class="header-text">
-            <p class="Whatch-the">Whatch the "Your Verse" film and explore the stories</p>
+          <a href="#" class="header-text display-flex">
+            <ul class="whatch-the">
+            <li><p>Whatch the "Your Verse" film and explore the stories</p></li>
+            <li class="icon-play"><ion-icon name="play-circle-outline"></ion-icon></li>
+            </ul>
           </a>
         </section>
       </div>
     </header>
     <article>
       <div class="just-here"></div>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+      <a href="#">
+        <ul class="main-promo display-flex">
+            <li><img src="assets/promo_iphone5s.jpg" alt="promo_iphone5s"></li>
+            <li><img src="assets/promo_iphone5c.jpg" alt="promo_iphone5c"></li>
+            <li><img src="assets/promo_30_years.jpg" alt="promo_30_years"></li>
+            <li><img src="assets/promo_supplier_responsibility.jpg" alt="promo_supplier_responsibility"></li>
+      </ul></a>
     </article>
     <footer>
-      <nav>
-        <div></div>
-        <div></div>
+      <nav class="nav-footer">
+        <div class="shop-the-apple">Shop the <a href="#">Apple Online Store</a> (7-800-MY-APPLE), visit an <a href="#">Apple Retail Store</a>, or find a <a href="#">reseller</a>.
+            <ul class="list-footer display-flex">
+            <li>Copyright © 2014 Apple Inc. All rights reserved.</li>
+            <li><a href="#">Terms of Use</a></li>
+            <li>|</li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        </div>
+        <div>
+          <ul class="list-footer display-flex">
+              <li><a href="#">Site Map</a></li>
+              <li>|</li>
+              <li><a href="#">Hot News</a></li>
+              <li>|</li>
+              <li><a href="#">RSS Feeds</a></li>
+              <li>|</li>
+              <li><a href="#">Media Info</a></li>
+              <li>|</li>
+              <li><a href="#">Environment</a></li>
+              <li>|</li>
+              <li><a href="#">Job Opportunities</a></li>
+              <li>|</li>
+              <li><a href="#">Contact Us</a></li>
+              <li>|</li>
+              <li><a href="#"><img src="assets/flag-3d-round-250.png" alt="usa-flag"></a></li>
+          </ul>
+        </div>
       </nav>
     </footer>
   </body>
