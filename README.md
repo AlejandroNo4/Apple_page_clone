@@ -18,28 +18,24 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://alejandrono4.github.io/Apple_page_clone/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+This project was created with the propouse to learn background images and gradients. 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+Computer running Windows, Mac or Ubuntu.
+Web browser: Chrome, Edge, Opera or Firefox. 
 
 ### Install
+Clone the Git repository to your computer.
 
 ### Usage
-
-### Run tests
-
-### Deployment
+Run the index.html file.
 
 
 
@@ -47,21 +43,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@AlejandroNo4](https://https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [Alejandro Contreras Rodriguez](https://linkedin.com/alejandro-contreras-rodriguez-b524821b5)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -69,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Old Apple page clone
 
 ## 📝 License
 
