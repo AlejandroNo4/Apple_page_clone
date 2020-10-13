@@ -4,7 +4,7 @@
 
 > An Apple page clone project
 
-![screenshot](app_screenshot.png)
+![screenshot](app_screenshot_2.png)
 
 Additional description about the project and its features.
 
