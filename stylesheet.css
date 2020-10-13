@@ -13,11 +13,11 @@ nav {
 }
 
 .nav-radious-left {
-  border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0 0 3px;
 }
 
 .nav-radious-right {
-  border-radius: 0px 3px 3px 0px;
+  border-radius: 0 3px 3px 0;
 }
 
 .top-text {
@@ -32,15 +32,16 @@ nav {
   align-items: center;
 }
 
-.navbar > a {
+.navbar > li {
   border-right: 1px solid rgb(88, 88, 88);
+  list-style: none;
+  flex: 1;
 }
 
 .nav-item {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  list-style: none;
   text-decoration: none;
   font-size: 12px;
   display: flex;
@@ -49,102 +50,34 @@ nav {
   height: 36px;
   width: 100%;
   background: rgba(150, 150, 150, 1);
-  background: -moz-linear-gradient(
-    top,
-    rgba(150, 150, 150, 1) 0%,
-    rgba(112, 112, 112, 1) 50%,
-    rgba(94, 94, 94, 1) 51%,
-    rgba(102, 102, 102, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, rgba(150, 150, 150, 1)),
-    color-stop(50%, rgba(112, 112, 112, 1)),
-    color-stop(51%, rgba(94, 94, 94, 1)),
-    color-stop(100%, rgba(102, 102, 102, 1))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(150, 150, 150, 1) 0%,
-    rgba(112, 112, 112, 1) 50%,
-    rgba(94, 94, 94, 1) 51%,
-    rgba(102, 102, 102, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(150, 150, 150, 1) 0%,
-    rgba(112, 112, 112, 1) 50%,
-    rgba(94, 94, 94, 1) 51%,
-    rgba(102, 102, 102, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(150, 150, 150, 1) 0%,
-    rgba(112, 112, 112, 1) 50%,
-    rgba(94, 94, 94, 1) 51%,
-    rgba(102, 102, 102, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(150, 150, 150, 1) 0%,
-    rgba(112, 112, 112, 1) 50%,
-    rgba(94, 94, 94, 1) 51%,
-    rgba(102, 102, 102, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#969696', endColorstr='#666666', GradientType=0 );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(150, 150, 150, 1) 0%,
+      rgba(112, 112, 112, 1) 50%,
+      rgba(94, 94, 94, 1) 51%,
+      rgba(102, 102, 102, 1) 100%
+    );
 }
 
 .hover-yes:hover {
-  background: rgba(59, 59, 59, 1);
-  background: -moz-linear-gradient(
-    top,
-    rgba(59, 59, 59, 1) 0%,
-    rgba(105, 105, 105, 1) 50%,
-    rgba(77, 77, 77, 1) 51%,
-    rgba(92, 91, 92, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, rgba(59, 59, 59, 1)),
-    color-stop(50%, rgba(105, 105, 105, 1)),
-    color-stop(51%, rgba(77, 77, 77, 1)),
-    color-stop(100%, rgba(92, 91, 92, 1))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(59, 59, 59, 1) 0%,
-    rgba(105, 105, 105, 1) 50%,
-    rgba(77, 77, 77, 1) 51%,
-    rgba(92, 91, 92, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(59, 59, 59, 1) 0%,
-    rgba(105, 105, 105, 1) 50%,
-    rgba(77, 77, 77, 1) 51%,
-    rgba(92, 91, 92, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(59, 59, 59, 1) 0%,
-    rgba(105, 105, 105, 1) 50%,
-    rgba(77, 77, 77, 1) 51%,
-    rgba(92, 91, 92, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(59, 59, 59, 1) 0%,
-    rgba(105, 105, 105, 1) 50%,
-    rgba(77, 77, 77, 1) 51%,
-    rgba(92, 91, 92, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#5c5b5c', GradientType=0 );
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(59, 59, 59, 1) 0%,
+      rgba(105, 105, 105, 1) 50%,
+      rgba(77, 77, 77, 1) 51%,
+      rgba(92, 91, 92, 1) 100%
+    );
 }
 
-.nav-field {
-  width: 78rem;
+.logo-apple {
+  width: 16px;
+}
+
+.nav-field > form {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .main-head {
@@ -170,7 +103,6 @@ nav {
 .icon-play {
   display: block;
   font-size: 35px;
-  margin-bottom: -5px;
 }
 
 .what-will {
@@ -187,12 +119,19 @@ nav {
 }
 
 .everyone {
-  font-size: 32px;
+  font-size: 34px;
 }
 
 .whatch-the {
   font-size: 25px;
-  margin-top: 25px;
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+.whatch-the > li > p {
+  margin-top: 10px;
 }
 
 .whatch-the:hover {
@@ -213,6 +152,7 @@ article {
   list-style: none;
   justify-content: space-between;
 }
+
 .main-promo > li > img {
   width: 100%;
   height: 197px;
@@ -246,14 +186,18 @@ article {
   margin-right: 6px;
 }
 
-.list-footer > li > a,
-.shop-the-apple > a {
+.shop-the-apple > a,
+.list-footer > li > a {
   text-decoration: none;
   color: #0096da;
 }
 
-.list-footer > li > a:hover,
-.shop-the-apple > a:hover {
+.no-display {
+  display: none;
+}
+
+.shop-the-apple > a:hover,
+.list-footer > li > a:hover {
   text-decoration: underline;
 }
 
